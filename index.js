@@ -27,7 +27,8 @@ var config = {
 axios(config)
   .then(function (response) {
     console.log(response.status);
-    console.log(response.data);
+    console.log(response.statusText);
+    console.log(response.data)
   })
   .catch(function (error) {
     console.log(error);
