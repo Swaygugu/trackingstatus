@@ -12,10 +12,10 @@ const httpsAgent = new https.Agent({
 
 var config = {
   method: 'post',
-  url: 'https://apixgw2.bot.or.th/bot-iwt/partner/bnapi/update-status-tracking',
+  url: 'https://apigw2.bot.or.th/bot-iwt/partner-extranet/bnapi/update-status-tracking',
   headers: {
-    'X-IBM-Client-Id': '85ec20ca-8fc3-4863-a08e-76fd35321b43',
-    'X-IBM-Client-Secret': 'oV7cI5oF0wO8eW4fQ2jD4gK3oN7iS8hF5dG5cE7eM7cN4tT7vH',
+    'X-IBM-Client-Id': '942e7528-794b-4dfe-a940-0b1e732c1993',
+    'X-IBM-Client-Secret': 'rA8qY1aX0lU5gU8nF8wI3lF3oK2eB6sK0tT5rR7uO7tB3tK5rN',
     'accept': 'application/json',
     'cache-control': 'no-cache',
     'content-type': 'application/json'
